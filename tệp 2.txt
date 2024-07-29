@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Apple</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .header h1 {
+            margin: 10px 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        .nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover {
+            background-color: #555;
+            transition: background-color 0.3s ease;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+            font-weight: 700;
+        }
+        .content p {
+            color: #666;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        table th, table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+        table thead {
+            background-color: #f2f2f2;
+        }
+        .carousel {
+            display: flex;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+        }
+        .carousel-img {
+            scroll-snap-align: start;
+            flex: 0 0 auto;
+            width: 300px;
+            margin-right: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="image.jpg" alt="Phúc Apple">
+        <h1>Phúc Apple</h1>
+        <p>Chuyên bán các loại điện thoại: iPhone, Samsung, Realme, Oppo...</p>
+        <p>Liên hệ: 0979790528</p>
+    </div>
+
+    <div class="nav">
+        <a href="#gioithieu">Giới Thiệu</a>
+        <a href="#sanpham">Sản Phẩm</a>
+        <a href="#dichvu">Dịch Vụ</a>
+        <a href="#lienhe">Liên Hệ</a>
+    </div>
+
+    <div class="content" id="gioithieu">
+        <h2>Giới Thiệu</h2>
+        <p>Phúc Apple là trang web chuyên bán các loại điện thoại từ nhiều hãng khác nhau như Apple, Samsung, Realme, Oppo... Khách hàng có thể đăng sản phẩm của mình lên và nhắn tin trao đổi mua bán trực tiếp trên trang web.</p>
+    </div>
+
+    <div class="content" id="sanpham">
+        <h2>Sản Phẩm</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Mô tả</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPhone 13</td>
+                    <td>20,000,000 VND</td>
+                    <td>Điện thoại mới nhất của Apple</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S21</td>
+                    <td>18,000,000 V
